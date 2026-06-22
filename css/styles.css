@@ -1,0 +1,222 @@
+:root {
+    --mx-granate: #7b1113;
+    --mx-verde: #1a3c28;
+    --mx-negro: #111111;
+    --mx-crema: #eaddcf;
+    --mx-dorado: #d4af37;
+}
+
+body {
+    background-color: #f8f9fa; /* Un gris muy claro para el fondo general */
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Navegación */
+.navbar-magna {
+    background-color: var(--mx-negro);
+    border-bottom: 4px solid var(--mx-granate);
+}
+.navbar-magna .nav-link {
+    color: var(--mx-crema) !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+.navbar-magna .nav-link:hover {
+    color: var(--mx-dorado) !important;
+}
+
+/* Sección Inicio (Hero) */
+.hero-section {
+    position: relative;
+    background-image: url('../img/hero-fondo.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: var(--mx-crema);
+    padding: 150px 0;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+}
+.hero-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(26, 60, 40, 0.7); /* Capa verde semitransparente */
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Títulos de sección */
+.section-title {
+    color: var(--mx-negro);
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+}
+.section-title::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 4px;
+    background-color: var(--mx-granate);
+    bottom: -10px;
+    left: 25%;
+}
+
+/* Tarjetas de Plantilla */
+.card-jugador {
+    border: none;
+    border-bottom: 5px solid var(--mx-verde);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.card-jugador:hover {
+    transform: translateY(-5px);
+    border-bottom: 5px solid var(--mx-dorado);
+}
+.dorsal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--mx-granate);
+    color: white;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border: 2px solid var(--mx-dorado);
+}
+
+/* Footer */
+.footer-magna {
+    background-color: var(--mx-negro);
+    color: var(--mx-crema);
+    border-top: 4px solid var(--mx-verde);
+}
+
+:root {
+    --mx-granate: #7b1113;
+    --mx-verde: #1a3c28;
+    --mx-negro: #111111;
+    --mx-crema: #eaddcf;
+    --mx-dorado: #d4af37;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    /* Ajuste para que el menú fijo no tape el contenido */
+    padding-top: 76px; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navegación */
+.navbar-magna {
+    background-color: var(--mx-negro);
+    border-bottom: 4px solid var(--mx-granate);
+}
+.navbar-magna .nav-link {
+    color: var(--mx-crema) !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+.navbar-magna .nav-link:hover, .navbar-magna .nav-link.active {
+    color: var(--mx-dorado) !important;
+}
+
+/* Sección Inicio (Hero) */
+.hero-section {
+    position: relative;
+    background-image: url('../img/hero-fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: var(--mx-crema);
+    padding: 120px 0;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+}
+.hero-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(26, 60, 40, 0.75);
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Títulos de sección */
+.section-title {
+    color: var(--mx-negro);
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+}
+.section-title::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 4px;
+    background-color: var(--mx-granate);
+    bottom: -10px;
+    left: 25%;
+}
+
+/* Tarjetas (Plantilla y Noticias) */
+.card-magna {
+    border: none;
+    border-bottom: 5px solid var(--mx-verde);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.card-magna:hover {
+    transform: translateY(-5px);
+    border-bottom: 5px solid var(--mx-dorado);
+}
+.dorsal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--mx-granate);
+    color: white;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border: 2px solid var(--mx-dorado);
+}
+
+/* Footer y Redes */
+main {
+    flex: 1; /* Empuja el footer siempre abajo */
+}
+.footer-magna {
+    background-color: var(--mx-negro);
+    color: var(--mx-crema);
+    border-top: 4px solid var(--mx-verde);
+}
+.social-icon {
+    color: var(--mx-crema);
+    transition: color 0.3s, transform 0.3s;
+    display: inline-block;
+}
+.social-icon:hover {
+    color: var(--mx-dorado);
+    transform: scale(1.1);
+}

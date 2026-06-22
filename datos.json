@@ -1,0 +1,112 @@
+{
+  "equipo": {
+    "nombre": "Magna Xota Alcorcón",
+    "descripcion": "Pasión, esfuerzo y fútbol en la liga municipal."
+  },
+  "partidos": [
+    {
+      "jornada": 1,
+      "local": "Inter Sahagun",
+      "visitante": "Hincadores F.C.",
+      "golesLocal": 4,
+      "golesVisitante": 2,
+      "jugado": true
+    },
+    {
+      "jornada": 1,
+      "local": "Timanfaya F.S.",
+      "visitante": "Aston Paty F.C.",
+      "golesLocal": 5,
+      "golesVisitante": 7,
+      "jugado": true
+    },
+    {
+      "jornada": 1,
+      "local": "Fumadores F.C.",
+      "visitante": "Magna Xota Alcorcón",
+      "golesLocal": 3,
+      "golesVisitante": 1,
+      "jugado": true
+    },
+    {
+      "jornada": 1,
+      "local": "Los Rodriguez FS",
+      "visitante": "Chorbetinha F.S.",
+      "golesLocal": 1,
+      "golesVisitante": 10,
+      "jugado": true
+    },
+    {
+      "jornada": 2,
+      "local": "Sporting de Madrid",
+      "visitante": "Magna Xota Alcorcón",
+      "golesLocal": 2,
+      "golesVisitante": 2,
+      "jugado": false
+    },
+    {
+      "jornada": 3,
+      "local": "Magna Xota Alcorcón",
+      "visitante": "Los Leones FC",
+      "golesLocal": 0,
+      "golesVisitante": 0,
+      "jugado": false
+    }
+  ],
+  "noticias": [
+    {
+      "fecha": "20 de Octubre, 2026",
+      "titulo": "Victoria sufrida en el derbi",
+      "texto": "Tres puntos vitales conseguidos en el último minuto gracias a una sólida defensa y un contragolpe perfecto.",
+      "imagen": "img/noticia-1.jpg"
+    },
+    {
+      "fecha": "15 de Octubre, 2026",
+      "titulo": "Nuevas equipaciones presentadas",
+      "texto": "Ya están aquí las nuevas camisetas para esta temporada. El granate y el verde lucen mejor que nunca.",
+      "imagen": "img/noticia-2.jpg"
+    }
+  ],
+  "plantilla": {
+    "porteros": [
+      {
+        "dorsal": "1",
+        "nombre": "Manuel Z.",
+        "imagen": "img/portero-1.jpg"
+      }
+    ],
+    "cierres": [
+      {
+        "dorsal": "4",
+        "nombre": "Carlos M.",
+        "imagen": "img/jugador-1.jpg"
+      }
+    ],
+    "alas": [
+      {
+        "dorsal": "7",
+        "nombre": "Dani A.",
+        "imagen": "img/jugador-2.jpg"
+      }
+    ],
+    "pivots": [
+      {
+        "dorsal": "9",
+        "nombre": "Iván P.",
+        "imagen": "img/jugador-3.jpg"
+      }
+    ]
+  },
+  "palmares": [
+    {
+      "titulo": "Campeones de Liga",
+      "temporada": "Temporada 2023/2024",
+      "imagen": "img/trofeo-1.jpg"
+    },
+    {
+      "titulo": "Copa Municipal",
+      "temporada": "Temporada 2022/2023",
+      "imagen": "img/trofeo-1.jpg"
+    }
+  ]
+}
